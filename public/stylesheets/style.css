@@ -6,3 +6,28 @@ body {
 a {
   color: #00B7FF;
 }
+
+.enlaces{
+  display: flex;
+  gap:3rem;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.goback{
+  margin-top: 3rem;
+}
+
+.flex{
+display: flex;
+gap: 2rem;
+margin-bottom: 4rem;
+}
