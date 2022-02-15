@@ -1,0 +1,17 @@
+<div class="center">
+  <h2>Sign-up</h2>
+  <form  action="/auth/signup" method="POST">
+    <label for="username">Name: </label>
+    <input type="text" name="username" minlength="3" maxlength="10" required>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+
+    <button type="submit">Submit</button>
+  </form>
+  <button class="goback"><a href="/">main</a></button>
+
+  {{#if errorMessage}}
+    <p>{{errorMessage}}</p>
+  {{/if}}
+</div>
